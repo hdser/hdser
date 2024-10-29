@@ -18,6 +18,10 @@
 ![GitHub](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github)&nbsp;
 
 
+| <a href="https://github.com/hdser/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=hdser&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true" alt="hdser's github stats" /></a> | <a href="https://github.com/hdser/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hdser&layout=compact&theme=buefy&hide_border=true" /></a> |
+| ------------- | ------------- |
+
+
 <!---
 hdser/hdser is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 --->
