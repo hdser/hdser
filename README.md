@@ -1,4 +1,4 @@
-![Header](./github-header-image.png)
+![Header](./github-header-image_2.png)
 
 > **Blockchain Analyst** focused on **on-chain activity** and **data infrastructure**. My work spans projects like **Dune Analytics** [dashboards](your-dune-dashboard-link), data ingestion, database infra, and graph algorithms.
 
