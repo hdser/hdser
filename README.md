@@ -12,7 +12,7 @@ I build data products end to end. On the backend: pipelines, indexers, warehouse
 <table>
 <tr>
 <td valign="top">
-<img src="assets/spacer.gif" width="400" height="1" alt=""><br>
+<img src="assets/spacer.gif" width="390" height="1" alt=""><br>
 
 **◆ &nbsp;Data infrastructure**
 
@@ -27,7 +27,7 @@ I build data products end to end. On the backend: pipelines, indexers, warehouse
 
 </td>
 <td valign="top">
-<img src="assets/spacer.gif" width="400" height="1" alt=""><br>
+<img src="assets/spacer.gif" width="390" height="1" alt=""><br>
 
 **◆ &nbsp;APIs, dashboards & AI**
 
