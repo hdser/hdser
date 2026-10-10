@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img alt="hdser: data engineering, graph analytics, simulation" src="assets/banner-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="banner-dark.svg">
+  <img alt="hdser: data engineering, graph analytics, simulation" src="banner-light.svg" width="100%">
 </picture>
 
 <br>
