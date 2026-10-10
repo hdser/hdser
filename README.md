@@ -1,17 +1,18 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="banner-dark.svg">
-  <img alt="hdser: data engineering, graph analytics, simulation" src="banner-light.svg" width="100%">
+  <img alt="hdser: data engineering, analytics, data products" src="banner-light.svg" width="100%">
 </picture>
 
 <br>
 
-I build data systems for open networks: indexers that turn raw chain data into clean tables, models that make it usable, and graph tools for understanding how value and trust move through a network.
+I build data products end to end. On the backend: pipelines, indexers, warehouses and the infrastructure they run on. In the middle: data models and APIs that make it all queryable. On the front: dashboards and web apps people actually use. And then the analytics itself, from product metrics and cohorts to graph analysis and simulations of complex systems.
 
 <br>
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td valign="top">
+<img src="assets/spacer.gif" width="476" height="1" alt=""><br>
 
 **◆ &nbsp;Data infrastructure**
 
@@ -25,12 +26,29 @@ I build data systems for open networks: indexers that turn raw chain data into c
 <sub>Latency and memory profiling for analytical workloads</sub>
 
 </td>
-<td width="50%" valign="top">
+<td valign="top">
+<img src="assets/spacer.gif" width="476" height="1" alt=""><br>
+
+**◆ &nbsp;APIs, dashboards & AI**
+
+[`metrics-dashboard`](https://github.com/gnosischain/metrics-dashboard)<br>
+<sub>Analytics front end for product and infrastructure teams</sub>
+
+[`cerebro-api`](https://github.com/gnosischain/cerebro-api)<br>
+<sub>REST endpoints auto-generated from dbt models, with auth and rate limits</sub>
+
+[`cerebro-mcp`](https://github.com/gnosischain/cerebro-mcp)<br>
+<sub>MCP server for AI agents: SQL, dbt lineage, charts and reports</sub>
+
+</td>
+</tr>
+<tr>
+<td valign="top">
 
 **◆ &nbsp;Graphs & trust networks**
 
 [`graph_analyzer`](https://github.com/hdser/graph_analyzer)<br>
-<sub>120+ network metrics for transaction and trust graphs</sub>
+<sub>120+ network metrics with a FastAPI web viewer</sub>
 
 [`trust-score`](https://github.com/hdser/trust-score)<br>
 <sub>EigenTrust, Appleseed and PageRank-style scoring</sub>
@@ -39,28 +57,25 @@ I build data systems for open networks: indexers that turn raw chain data into c
 <sub>Max-flow routing of value over trust networks</sub>
 
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<td valign="top">
 
-**◆ &nbsp;Simulation**
+**◆ &nbsp;Simulation & modeling**
 
 [`circlesubi-simulation`](https://github.com/hdser/circlesubi-simulation)<br>
-<sub>Agent-based model of UBI on a trust network</sub>
+<sub>Agent-based model of UBI with interactive dashboards</sub>
 
 [`PyCircleSim`](https://github.com/hdser/PyCircleSim)<br>
 <sub>Network evolution and value-flow simulation</sub>
 
+[`pathfinder2`](https://github.com/hdser/pathfinder2)<br>
+<sub>Rust pathfinding engine and methodology docs</sub>
+
 </td>
-<td width="50%" valign="top">
+</tr>
+<tr>
+<td colspan="2" valign="top">
 
-**◆ &nbsp;Open source**
-
-[`spellbook`](https://github.com/duneanalytics/spellbook)<br>
-<sub>Shared on-chain SQL models on Dune</sub>
-
-[`circles-nethermind-plugin`](https://github.com/aboutcircles/circles-nethermind-plugin)<br>
-<sub>Node-level data collection for Circles</sub>
+**◆ &nbsp;Open source** &nbsp;·&nbsp; [`spellbook`](https://github.com/duneanalytics/spellbook) <sub>shared on-chain SQL models on Dune</sub> &nbsp;·&nbsp; [`circles-nethermind-plugin`](https://github.com/aboutcircles/circles-nethermind-plugin) <sub>node-level data for Circles</sub>
 
 </td>
 </tr>
@@ -69,10 +84,14 @@ I build data systems for open networks: indexers that turn raw chain data into c
 <br>
 
 ![Python](https://img.shields.io/badge/Python-161b22?style=flat-square&logo=python&logoColor=3776AB)
-![SQL](https://img.shields.io/badge/SQL-161b22?style=flat-square&logo=postgresql&logoColor=4169E1)
-![Rust](https://img.shields.io/badge/Rust-161b22?style=flat-square&logo=rust&logoColor=white)
-![Go](https://img.shields.io/badge/Go-161b22?style=flat-square&logo=go&logoColor=00ADD8)
-![dbt](https://img.shields.io/badge/dbt-161b22?style=flat-square&logo=dbt&logoColor=FF694B)
+![SQL](https://img.shields.io/badge/SQL-161b22?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNzljMGZmIiBzdHJva2Utd2lkdGg9IjIiPjxlbGxpcHNlIGN4PSIxMiIgY3k9IjUiIHJ4PSI4IiByeT0iMyIvPjxwYXRoIGQ9Ik00IDV2MTRjMCAxLjcgMy42IDMgOCAzczgtMS4zIDgtM1Y1Ii8%2BPHBhdGggZD0iTTQgMTJjMCAxLjcgMy42IDMgOCAzczgtMS4zIDgtMyIvPjwvc3ZnPg%3D%3D)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-161b22?style=flat-square&logo=postgresql&logoColor=4169E1)
 ![ClickHouse](https://img.shields.io/badge/ClickHouse-161b22?style=flat-square&logo=clickhouse&logoColor=FFCC01)
-![Docker](https://img.shields.io/badge/Docker-161b22?style=flat-square&logo=docker&logoColor=2496ED)
+![dbt](https://img.shields.io/badge/dbt-161b22?style=flat-square&logo=dbt&logoColor=FF694B)
+![FastAPI](https://img.shields.io/badge/FastAPI-161b22?style=flat-square&logo=fastapi&logoColor=009688)
 ![Grafana](https://img.shields.io/badge/Grafana-161b22?style=flat-square&logo=grafana&logoColor=F46800)
+![Docker](https://img.shields.io/badge/Docker-161b22?style=flat-square&logo=docker&logoColor=2496ED)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-161b22?style=flat-square&logo=kubernetes&logoColor=326CE5)
+![Terraform](https://img.shields.io/badge/Terraform-161b22?style=flat-square&logo=terraform&logoColor=844FBA)
+
+<sub>→ more on [dune.com/hdser](https://dune.com/hdser)</sub>
